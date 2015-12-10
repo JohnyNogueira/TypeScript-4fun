@@ -1,0 +1,11 @@
+{
+  "name": "typescript-4fun",
+  "version": "0.0.1", 
+  "scripts": {
+    "tsc": "tsc -p src -w"     
+  },  
+  "devDependencies": {
+ 
+    "typescript": "~1.6.0"
+  }
+}
