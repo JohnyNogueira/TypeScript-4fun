@@ -1,4 +1,3 @@
-  
 interface IDog{
 	name: string;
     breed?: string;
@@ -19,9 +18,7 @@ class Dog implements IDog {
 	}
 } 
 
-
-var dog = new Dog("John Cena" , 2);
- 
+var dog = new Dog("John Cena" , 2); 
  
 console.log(dog.getName());
 //HIS NAME IS JOHN CENA
