@@ -11,5 +11,5 @@ var Dog = (function () {
 })();
 var dog = new Dog("John Cena", 2);
 console.log(dog.getName());
-//HIS NAME IS JOHN CENA 
+//HIS NAME IS JOHN CENA
 //# sourceMappingURL=interfaces.js.map
