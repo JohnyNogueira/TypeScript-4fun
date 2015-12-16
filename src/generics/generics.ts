@@ -1,9 +1,9 @@
- class Ophidian {
-    
+class Ophidian {
+      name: string;
 }
 
 class Snake extends Ophidian {
-    name: string;
+  
 }
 
 interface ISnake {
@@ -11,7 +11,7 @@ interface ISnake {
 }
 
 class Viper implements ISnake {
-    snake<T extends Ophidian>(): T {
+    snake<T extends Ophidian>() {
         return new Snake();
     }
 }
